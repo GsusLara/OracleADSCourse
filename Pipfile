@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+pandas = "*"
+seaborn = "*"
+matplotlib = "*"
+oracle-ads = {extras = ["data"], version = "*"}
+imbalanced-learn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
